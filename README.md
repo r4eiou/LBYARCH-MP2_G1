@@ -2,7 +2,7 @@
 
 Members:\
 GARCIA, REINA ALTHEA CRUZ\
-MONSERRAT, ANTONIO ENRIQUE MOJICA\
+MONSERRAT, ANTONIO ENRIQUE MOJICA
 
 I. Comparative execution time and short analysis of the performance of the kernels
 
