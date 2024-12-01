@@ -1,6 +1,6 @@
 # LBYARCH-MP2_G1
 
-Members:\
+Members:
 GARCIA, REINA ALTHEA CRUZ\
 MONSERRAT, ANTONIO ENRIQUE MOJICA
 
@@ -10,15 +10,16 @@ II-III. Screenshot of the program output with the correctness check (C) and (x86
 
 2^20:
 
-![image](https://github.com/user-attachments/assets/985584e3-b685-4968-8dd0-a1a1b607858b)
+![image](https://github.com/user-attachments/assets/b2ae7ccb-775e-4166-bad5-27fdca595cba)
 
 2^24:
 
-![image](https://github.com/user-attachments/assets/5e6234ba-1524-4d48-a2db-f54d958ea657)
+![image](https://github.com/user-attachments/assets/7ace1b4f-d5c0-4b21-b12f-a2e72c36d785)
 
 2^28:
 
-![image](https://github.com/user-attachments/assets/df2993de-a28c-4abb-a036-5d478e8296b0)
+![image](https://github.com/user-attachments/assets/48db92a5-2e92-4bd3-be57-9cac2064ac12)
+
 
 
 
