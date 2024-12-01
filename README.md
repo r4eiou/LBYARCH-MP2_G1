@@ -5,6 +5,7 @@ GARCIA, REINA ALTHEA CRUZ
 MONSERRAT, ANTONIO ENRIQUE MOJICA
 
 **I. Comparative execution time and short analysis of the performance of the kernels**
+The comparison of execution time between the C program and the x86-64 assembly implementation of the dot product shows differences in their respective performance. The assembly implementation, which utilizes SIMD floating-point instructions and functional scalar SIMD registers, performs better than the C implementation, which uses a for loop. This is expected, as assembly language is mapped directly to machine language, which can be executed by the CPU.
 
 **II-III. Screenshot of the program output with the correctness check (C) and (x86-64).**
 
@@ -22,11 +23,11 @@ _2^28:_
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Use following commands to execute code:
-nasm -f win64 asmfile.asm
-gcc -c cfileTesting.c -o cfileTesting.obj -m64
-gcc cfileTesting.obj asmfile.obj -o cfileTesting.exe -m64
-cfileTesting.exe
+Use following commands to execute code:\
+nasm -f win64 asmfile.asm\
+gcc -c cfileTesting.c -o cfileTesting.obj -m64\
+gcc cfileTesting.obj asmfile.obj -o cfileTesting.exe -m64\
+cfileTesting.exe\
 
 
 
