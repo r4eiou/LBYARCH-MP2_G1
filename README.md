@@ -33,7 +33,7 @@ Use following commands to execute code:\
 nasm -f win64 asmfile.asm\
 gcc -c cfileTesting.c -o cfileTesting.obj -m64\
 gcc cfileTesting.obj asmfile.obj -o cfileTesting.exe -m64\
-cfileTesting.exe\
+cfileTesting.exe
 
 
 
