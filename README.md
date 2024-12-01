@@ -20,6 +20,13 @@ II-III. Screenshot of the program output with the correctness check (C) and (x86
 
 ![image](https://github.com/user-attachments/assets/48db92a5-2e92-4bd3-be57-9cac2064ac12)
 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Use following commands to execute code:
+nasm -f win64 asmfile.asm
+gcc -c cfileTesting.c -o cfileTesting.obj -m64
+gcc cfileTesting.obj asmfile.obj -o cfileTesting.exe -m64
+cfileTesting.exe
 
 
 
