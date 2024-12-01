@@ -10,7 +10,7 @@ II-III. Screenshot of the program output with the correctness check (C) and (x86
 
 2^20:
 
-![image](https://github.com/user-attachments/assets/b2ae7ccb-775e-4166-bad5-27fdca595cba)
+![image](https://github.com/user-attachments/assets/c5471f66-a549-4211-8a49-4b5c97f3f6a1)
 
 2^24:
 
