@@ -9,15 +9,15 @@ MONSERRAT, ANTONIO ENRIQUE MOJICA
 The comparison of execution time between the C program and the x86-64 assembly implementation of the dot product shows differences in their respective performance. The assembly implementation, which utilizes SIMD floating-point instructions and functional scalar SIMD registers, performs better than the C implementation, which uses a for loop. This is expected, as assembly language is mapped directly to machine language, which can be executed by the CPU.
 
 We ran each kernel version 20 times for each vector size: 2^20, 2^24, and 2^28. The corresponding outputs are as follows:\
-2^20\
+2^20
 - Average Time for x86-64: 0.000600s
 - Average Time for C: 0.002450s
 
-2^24\
+2^24
 - Average Time for x86-64: 0.015250s
 - Average Time for C: 0.037050s
 
-2^28\
+2^28
 - Average Time for x86-64: 0.240400s
 - Average Time for C: 0.606250s
 
