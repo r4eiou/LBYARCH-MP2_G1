@@ -6,6 +6,7 @@ GARCIA, REINA ALTHEA CRUZ\
 MONSERRAT, ANTONIO ENRIQUE MOJICA
 
 **I. Comparative execution time and short analysis of the performance of the kernels**\
+\
 The comparison of execution time between the C program and the x86-64 assembly implementation of the dot product shows differences in their respective performance. The assembly implementation, which utilizes SIMD floating-point instructions and functional scalar SIMD registers, performs better than the C implementation, which uses a for loop. This is expected, as assembly language is mapped directly to machine language, which can be executed by the CPU.
 
 We ran each kernel version 20 times for each vector size: 2^20, 2^24, and 2^28. The corresponding outputs are as follows:\
